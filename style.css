@@ -7,20 +7,40 @@ body {
 .article {
     max-width: 800px;
     margin: 20px auto;
-    background-color: #f9f9f9;
+    background-color: "white";
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .main-heading {
-    text-align: center;
-    color: #333;
+    color: #004080;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+
+
+p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.main-heading p {
+  color: #666;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section-heading {
+    color: #0066cc;
 }
 
 .image {
-    float: left;
-    margin-right: 20px;
+  float: left;
+  margin: 0 20px 20px 0;
 }
 
 .image img {
@@ -42,7 +62,21 @@ body {
     clear: both;
 }
 
-p {
-    text-align: justify;
-    line-height: 1.6;
+#more {
+  background-color: #edede4;
+  padding: 10px 20px;
+  color: #004080;
+}
+
+#flexbox {
+    display: flex;
+}
+
+.child {
+  padding: 20px;
+}
+
+#pranked {
+  padding: 1000px 20px 0px 20px;
+  text-align: center;
 }
