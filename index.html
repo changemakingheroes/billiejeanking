@@ -9,9 +9,10 @@
   <body>
     <div class="article">
       <div class="main-heading">
-        <a href="">Main</a>><a href="">Biographies</a>><a href=""
-          >Tennis Players</a
-        >><a href="">Billie Jean King</a>
+        <!-- FIXED: Added proper separators and structure for breadcrumb navigation -->
+        <nav class="breadcrumb">
+          <a href="">Main</a> &gt; <a href="">Biographies</a> &gt; <a href="">Tennis Players</a> &gt; <a href="">Billie Jean King</a>
+        </nav>
         <h1>Billie Jean King</h1>
         <p>Children's Sports Online © 2023</p>
       </div>
@@ -56,8 +57,9 @@
         <div class="section">
           <h2 class="section-heading">Accomplishments as an Aviator</h2>
           <div class="image">
+            <!-- FIXED: Removed leading slash to make path relative -->
             <img
-              src="/assets/adultjeanking.png"
+              src="assets/adultjeanking.png"
               alt="BJK adult"
             />
             <div class="caption">Aviation and Tennis Trophies won in 1995</div>
@@ -94,18 +96,22 @@
             </div>
 
             <div class="child">
+              <!-- FIXED: Added alt attribute for accessibility -->
               <img
                 height="100"
                 src="https://www.womenshistory.org/sites/default/files/styles/main_image/public/images/2021-06/Billie%20Jean%20King%20Square.png"
+                alt="Billie Jean King portrait"
               />
               <br />
               <p><a href="">Image gallery</a></p>
             </div>
 
             <div class="child">
+              <!-- FIXED: Added alt attribute for accessibility -->
               <img
                 height="100"
                 src="https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_webp/cdn.shortpixel.ai/spai3/q_lossy+ret_img+to_webp/https://media.madebyteachers.com/wp-content/uploads/2022/11/10071952/preview1-9-500x500.jpg"
+                alt="Educational resources icon"
               />
               <br />
               <p><a href="">For Teachers</a></p>
@@ -114,17 +120,20 @@
         </div>
 
         <div id="pranked">
-          This website was made by Mallory Weber to get her 3rd graders to pay
-          attention to website credibility.
-          <br />
+          <p>
+            This website was made by Mallory Weber to get her 3rd graders to pay
+            attention to website credibility.
+          </p>
 
+          <!-- FIXED: Removed extra space in width attribute -->
           <iframe
             src="https://giphy.com/embed/3o6ozvv0zsJskzOCbu"
-            width="240 "
+            width="240"
             height="240"
             frameborder="0"
             class="giphy-embed"
             allowfullscreen
+            title="Giphy animation"
           ></iframe>
         </div>
       </div>
